@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>3 Coloumn Layout</title>
+<meta charset="utf-8">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+    background-color:skyblue;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color:white;
+}
+
+header a{
+  color:white;
+  text-decoration: none;
+}
+
+
+h2.center{
+                text-align: center;
+                }
+article {
+    float: left;
+    padding: 20px;
+    width: 100%;
+    background-color:white;
+    text-align: center;
+    height: auto; 
+}
+
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+footer {
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+</style>
+</head>
+<body>
+
+
+<header>
+  <a href="about.html" target="_blank"> About</a> &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="projects.html" target="_blank">Projects</a> &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="certifications.html" target="_blank">Certification</a> &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="contact.html" target="_blank"> contact</a>
+</header>
+
+<section>
+ 
+  
+  <article>
+     
+     <p>Passionate and hardworking college student pursuing B tech in Computer Science at the NIIT University. Aiming and will use my knowledge to the ultimate of the organization’s benefit and profit during the course of my job in your company</p>
+  </article>
+</section>
+
+<footer>
+<p> 2018- Praveen Medikonda </p>
+</footer>
+
+</body>
+</html>
